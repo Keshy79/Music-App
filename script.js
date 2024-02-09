@@ -7,14 +7,13 @@ const fetchMe = () =>{
       convertedResponse.map((user)=>{
          console.log(user);
          show.innerHTML += `
-         <div>
-          <h3>${user.id}.h3>
-          <img src="${user.songImage} alt="pix" />
-          <p>${user.albumName}</p>  
-          <p>${user.artistName}</p>         
-          <h3>${user.songTitle}</h3>
-          <audio src="${user.songUrl}" controls />
-          </div>
+         <div style="display: flex;">
+        <h3>${user.id}<h3>
+        <img src="${user.songImage}" alt="pix">  
+        <h3>${user.songTitle}</h3>
+        <p>${user.artistName}</p>         
+        <audio src="${user.songUrl}" controls />
+        </div>
          `
       })
   }).catch(error =>{
