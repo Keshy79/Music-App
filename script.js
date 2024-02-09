@@ -7,9 +7,9 @@ const fetchMe = () =>{
       convertedResponse.map((user)=>{
          console.log(user);
          show.innerHTML += `
-         <div style="display:flex;">
-          <h3>${user.id}.</h3>
-          <img src="${user.songImage} alt="pix" style="width: 20%;" height="5%" />
+         <div>
+          <h3>${user.id}.h3>
+          <img src="${user.songImage} alt="pix" />
           <p>${user.albumName}</p>  
           <p>${user.artistName}</p>         
           <h3>${user.songTitle}</h3>
