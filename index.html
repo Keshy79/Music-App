@@ -15,26 +15,66 @@
         </div>
     </div>
 
-    <div class="App mx-4 rounded-2"></div>
+    <div class="">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/pexels-jonas-mohamadi-1490844.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pexels-thibault-trillet-167491.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pexels-tirachard-kumtanom-1001850.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pexels-wendy-wei-1540406.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/pexels-yuri-manei-2272854.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
     <div class="d-flex p-4 justify-content-between ">
         <h3 class="col-lg-11">Trending Songs</h3>
         <button class="col-lg-1 btn btn-dark ">More ></button>
     </div>
 
     <div class="container-fluid justify-content-between ">
-        <div class="row">
-            <div class="col-3">Hot</div>
-            <div class="col-3">New</div>
-            <div class="col-3">Afrobeats</div>
-            <div class="col-3">Hip Hop</div>
+        <div class="row d-sm-flex ">
+            <div class="col-lg-3 col-sm-2 ">
+                <button class="btn btn-info ">Hot</button>
+            </div>
+            <div class="col-lg-3 col-sm-2 ">
+                <button class="btn btn-info ">New</button>
+
+            </div>
+            <div class="col-lg-3 col-sm-2 ">
+                <button class="btn btn-info ">Afrobeats</button>
+
+            </div>
+            <div class="col-lg-3 col-sm-2 ">
+                <button class="btn btn-info ">Hop Hop</button>
+
+            </div>
         </div>
     </div>
     <p class="py-4 m-3 ">Updated daliy. Most played songs in the region.</p>
     <!-- <button onclick="fetchMe()">fetch me</button> -->
     <div id="show"></div>
 
-    
-<div style="display: flex;"></div>
+<!-- <div style="display: flex;"></div> -->
+
+
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
