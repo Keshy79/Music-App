@@ -6,6 +6,35 @@
 
 .App{
     /* background-color: darkgreen; */
-    background: linear-gradient(red, green, blue);
+    background: linear-gradient(blue, green, blue);
     height: 130px;
+}
+
+.contain{
+    display: flex;
+    padding: 30px 30px;
+}
+
+.id{
+    padding: 0px 30px 0px 0px;
+}
+
+.song{
+    height: 40px;
+    width: 40px;
+}
+
+.name{
+    display: flex;
+}
+
+.title{
+    margin-left: 30px;
+}
+
+.url{
+    margin-left: 50px;
+}
+.d-block{
+    height: 350px;
 }
